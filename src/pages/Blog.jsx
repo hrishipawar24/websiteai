@@ -1,5 +1,4 @@
 import { Calendar, User, ArrowRight } from 'lucide-react';
-import '../styles/blog.css';
 
 const blogs = [
     {

@@ -1,6 +1,5 @@
 import { Link } from 'react-router-dom';
 import { Cpu, Mail, Phone, MapPin, Linkedin, Twitter, Github } from 'lucide-react';
-import '../../styles/footer.css';
 
 const Footer = () => {
     return (

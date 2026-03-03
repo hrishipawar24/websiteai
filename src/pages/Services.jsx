@@ -1,5 +1,4 @@
 import { Brain, MessageSquare, Eye, BarChart3, ChevronRight } from 'lucide-react';
-import '../styles/services-page.css';
 
 const servicesDetail = [
     {

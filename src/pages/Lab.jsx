@@ -1,5 +1,4 @@
 import { Rocket, Mail, Share2, ArrowRight, CheckCircle2 } from 'lucide-react';
-import '../styles/lab.css';
 
 const Lab = () => {
     const products = [

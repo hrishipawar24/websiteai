@@ -1,7 +1,6 @@
 import Hero from '../components/Layout/Hero';
 import ServicesSection from '../components/Services/ServicesSection';
 import { Target, Lightbulb, Rocket, Settings } from 'lucide-react';
-import '../styles/home.css';
 
 const Home = () => {
     const steps = [

@@ -1,5 +1,4 @@
 import { Brain, MessageSquare, Eye, BarChart3 } from 'lucide-react';
-import '../../styles/services.css';
 
 const services = [
     {

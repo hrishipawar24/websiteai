@@ -1,5 +1,4 @@
 import { Shield, Users, Lightbulb, Globe } from 'lucide-react';
-import '../styles/about.css';
 
 const About = () => {
     return (

@@ -1,6 +1,5 @@
 import { ArrowRight, Bot, Sparkles, Zap } from 'lucide-react';
 import { Link } from 'react-router-dom';
-import '../../styles/hero.css';
 
 const Hero = () => {
     return (
