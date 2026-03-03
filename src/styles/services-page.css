@@ -1,0 +1,89 @@
+.services-hero {
+    padding-top: 140px;
+}
+
+.services-detail-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+    gap: 2.5rem;
+    margin-top: 4rem;
+}
+
+.detail-card {
+    background-color: white;
+    padding: 3rem;
+    border-radius: 24px;
+    border: 1px solid var(--border-color);
+    box-shadow: var(--card-shadow);
+    transition: all 0.3s ease;
+}
+
+.detail-card:hover {
+    transform: translateY(-5px);
+    border-color: var(--primary);
+}
+
+.detail-icon {
+    width: 60px;
+    height: 60px;
+    background-color: rgba(121, 76, 250, 0.1);
+    color: var(--primary);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 12px;
+    margin-bottom: 2rem;
+}
+
+.detail-card h3 {
+    font-size: 1.8rem;
+    margin-bottom: 1rem;
+    color: var(--secondary);
+}
+
+.detail-card p {
+    color: var(--text-muted);
+    margin-bottom: 2rem;
+}
+
+.detail-items {
+    display: flex;
+    flex-direction: column;
+    gap: 0.8rem;
+}
+
+.detail-items li {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-weight: 600;
+    color: var(--text-dark);
+}
+
+.detail-items svg {
+    color: var(--primary);
+}
+
+.tech-logos {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 2rem;
+    margin-top: 3rem;
+}
+
+.tech-item {
+    background-color: white;
+    padding: 1rem 2rem;
+    border-radius: 50px;
+    font-weight: 700;
+    color: var(--secondary);
+    border: 1px solid var(--border-color);
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.05);
+}
+
+@media (max-width: 576px) {
+    .detail-card {
+        padding: 2rem;
+    }
+}
